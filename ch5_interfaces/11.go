@@ -1,10 +1,11 @@
 package main
 
 // func getExpenseReport(e expense) (string, float64) {
-// 	if b, ok := e.(email); ok {
-// 		return b.toAddress, e.cost()
-// 	} else if b, ok := e.(sms); ok {
-// 		return b.toPhoneNumber, e.cost()
+// 	switch v := e.(type) {
+// 	case email:
+// 		return v.toAddress, e.cost()
+// 	case sms:
+// 		return v.toPhoneNumber, e.cost()
 // 	}
 // 	return "", e.cost()
 // }
